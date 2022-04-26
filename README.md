@@ -1,1 +1,1 @@
-# simpleProstgreSQL
+# SimpleProstgreSQL
