@@ -1,5 +1,5 @@
 -- view calculation of customers who have spent less than 200 euros in the last month
-CREATE VIEW GetChurnCustomers AS
+CREATE VIEW getChurnCustomers AS
 SELECT c.id, CONCAT(c.name, ' ', c.surname) AS "Client", SUM(p.price)
 FROM product p
          JOIN receipt r on p.id = r.id_product
